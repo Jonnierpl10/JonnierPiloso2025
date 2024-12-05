@@ -17,6 +17,9 @@ public class Calculadora {
     }
     
     
+    public void Sumar(){
+        
+    }
     
     public void pilaResultados(){
         
