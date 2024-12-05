@@ -5,15 +5,14 @@ import java.util.Stack;
 
 public class Calculadora {
     
-    private int tamaño;
-    private Stack<String> pilaDeshacer;
-    private Stack<String> pilaRehacer;
-    private String contenido;
+    private Stack<Integer> pilaResultado;
+    private Stack<Integer> pilaRehacer;
+    private int resultado;
 
-    public Calculadora(String contenido) {
-        this.pilaDeshacer = new Stack<>();
+    public Calculadora() {
+        this.resultado = 0;
+        this.pilaResultado = new Stack<>();
         this.pilaRehacer = new Stack<>();
-        this.contenido = "";
     }
     
     
